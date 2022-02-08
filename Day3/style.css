@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+@font-face {
+  font-family: "LeferiPoint-WhiteObliqueA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.h2 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 22px;
+}
+
+p,
+ol,
+.link {
+  font-family: "LeferiPoint-WhiteObliqueA";
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.edit {
+  margin-left: 12px;
+}
+
+.link {
+  margin-left: 20px;
+}
