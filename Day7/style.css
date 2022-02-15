@@ -1,0 +1,208 @@
+/* ---------------------- 기본 세팅 ---------------------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #ababab;
+  background-image: url("images/pattern.png");
+  background-size: 100px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin: 5px 0px;
+}
+
+/* ---------------------- 배경 세팅 ---------------------- */
+.bookcover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 960px;
+  height: 660px;
+  background-color: #b4d0da;
+
+  border: 1px solid #738186;
+  border-radius: 10px;
+}
+
+.bookdot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 940px;
+  height: 640px;
+
+  border: 2px dashed white;
+  border-radius: 10px;
+}
+
+.page {
+  width: 920px;
+  height: 620px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #eeeeee;
+
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  padding: 15px;
+}
+
+/* ---------------------- 페이지 왼쪽 세팅 ---------------------- */
+.page-left {
+  width: 27%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  margin-right: 22px;
+}
+.page-left_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+}
+.today {
+  color: red;
+  margin: 0px 5px;
+}
+.page-left_main {
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+}
+.profile-img {
+  width: 100%;
+  height: 200px;
+
+  margin-bottom: 15px;
+}
+
+/* ---------------------- 페이지 중앙 세팅 ---------------------- */
+.page-center {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+.page-center_header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 15px;
+}
+.page-center_main {
+  width: 100%;
+  height: 90%;
+
+  padding: 15px;
+
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+}
+.header {
+  color: #718fa6;
+}
+.list > li {
+  display: flex;
+  margin: 5px 0px;
+
+  align-items: center;
+}
+.list-kind {
+  width: 3rem;
+
+  border-radius: 4px;
+
+  color: white;
+
+  padding: 2px;
+}
+.list-title {
+  margin-left: 5px;
+}
+.album {
+  background-color: #f59386;
+}
+.board {
+  background-color: #667ac1;
+}
+
+.updated-news_main {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+.links {
+  width: 55%;
+}
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+
+  padding: 3px;
+  padding-right: 40px;
+}
+.link-count {
+  color: #5565c2;
+}
+
+/* ---------------------- 페이지 오른쪽 세팅 ---------------------- */
+.page-right {
+  width: 10%;
+  height: 100%;
+
+  border: 1px solid black;
+}
