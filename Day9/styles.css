@@ -1,0 +1,13 @@
+@import url("css/basic.css");
+@import url("css/background.css");
+@import url("css/page-left.css");
+@import url("css/page-center.css");
+@import url("css/page-right.css");
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
