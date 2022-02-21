@@ -1,0 +1,231 @@
+.page-center {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+.page-center_header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 15px;
+}
+.page-center_main {
+  width: 100%;
+  height: 90%;
+
+  padding: 15px;
+
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+}
+.header {
+  color: #718fa6;
+}
+/* ========================= home ========================= */
+/* ---------------------- updated news ---------------------- */
+.list > li {
+  display: flex;
+  margin: 5px 0px;
+
+  align-items: center;
+}
+.list-kind {
+  width: 3rem;
+
+  border-radius: 4px;
+
+  color: white;
+
+  padding: 2px;
+}
+.list-title {
+  margin-left: 5px;
+}
+.album {
+  background-color: #f59386;
+}
+.board {
+  background-color: #667ac1;
+}
+
+.updated-news_main {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+.links {
+  width: 55%;
+}
+.link-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+
+  padding: 3px;
+  padding-right: 40px;
+}
+.link-count {
+  color: #5565c2;
+}
+
+/* ---------------------- miniroom ---------------------- */
+.miniroom_main {
+  width: 100%;
+  height: 280px;
+}
+
+.miniroom > hr {
+  margin-bottom: 0;
+}
+
+/* ========================= album ========================= */
+.posting {
+  margin-bottom: 30px;
+}
+.posting-title {
+  width: 100%;
+  height: 35px;
+
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #e7e7e7;
+
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  font-weight: bold;
+}
+.posting-contents {
+  padding: 20px;
+}
+.posting-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  margin-bottom: 20px;
+}
+.posting-img > img {
+  width: 100%;
+}
+
+/* ========================== diary ========================== */
+/* ------------------------ calendar ------------------------  */
+.calendar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.calendar-today {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-weight: bold;
+  color: #659fbf;
+
+  margin-right: 10px;
+}
+.calendar-days {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calendar-days > div:nth-child(n + 18):nth-child(-n + 20) {
+  color: red;
+}
+.calendar-days > .day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25px;
+  height: 25px;
+
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* ------------------------ diary ------------------------  */
+.diaries {
+  width: 100%;
+  height: 85%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: scroll;
+}
+.diary {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 300px;
+  padding: 15px;
+  margin: 20px 0;
+
+  border: 2px solid rgba(0, 0, 0, 0.1);
+
+  box-sizing: border-box;
+}
+.diary_now {
+  position: absolute;
+  left: 15;
+  top: 15;
+
+  color: #659fbf;
+  font-weight: bold;
+}
+.diary_contents {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+  text-align: center;
+
+  font-weight: 600;
+}
+.secret {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 200px;
+
+  margin-top: 3rem;
+  color: white;
+}
+.secret > i {
+  margin-right: 10px;
+}
+.secret:hover {
+  background-color: #03ab8a;
+}
