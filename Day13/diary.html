@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fdd9468a3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="page-left">
+            <div class="page-left_header">
+              TODAY<span class="today">26</span>| TOTAL 23424
+            </div>
+            <div class="page-left_main">
+              <div class="profile">
+                <img src="images/profile.jpg" alt="" class="profile-img" />
+                <span class="profile-phrase">
+                  저는 사슴입니다. <br />
+                  HTML, CSS 어려워효. <br />
+                  더 열심히 공부해볼게효.
+                </span>
+              </div>
+
+              <div class="footer">
+                <div class="footer_name">I'm Deer!</div>
+                <select class="footer_wave">
+                  <option selected hidden value="">파도타기</option>
+                  <option value="community">
+                    <a href="https://naver.com">코뮤니티로 가기</a>
+                  </option>
+                  <option value="instagram">
+                    <a href="#">인스타그램으로 가기</a>
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-center">
+            <div class="page-center_header">
+              <span class="state">만들다보니 벌써 시간이...</span>
+              <span class="address">https:// .... </span>
+            </div>
+            <div class="page-center_main">
+              <div class="calendar">
+                <div class="calendar-today">
+                  <span>02.20</span>
+                  <span>SUN</span>
+                </div>
+                <div class="calendar-days"></div>
+              </div>
+
+              <div class="diaries">
+                <div class="diary">
+                  <div class="diary_now">2022.02.18 금 16:30</div>
+                  <div class="diary_contents">
+                    요즘 시간이 정말 빠르다. <br />
+                    할게 정말 많은데 시간은 정말 빠르게 간다. <br />
+                    그래도 오늘만 하면 내일부턴 주말! <br />
+                    <br />
+                    파이팅!
+                  </div>
+                </div>
+
+                <div class="diary">
+                  <div class="diary_now">2022.02.19 토 16:30</div>
+                  <div class="diary_contents">
+                    할건 많은데 정말 하기가 싫다. <br />
+                    으아 다 귀찮아ㅏㅏㅏㅏ <br />
+                    요즘 정말 힘든일이 많다. <br />
+                    그래도 힘든티를 안내는중이다. <br />
+                    <br />
+                    사람들에게 즐거움을 주려고 노력해야지.
+                  </div>
+                </div>
+
+                <div class="diary">
+                  <div class="diary_now">2022.02.20 일 17:30</div>
+                  <div class="diary_contents">
+                    벌써 주말이 끝나간다니 말도안돼 <br />
+                    이건 꿈일거야 그래야만 해 <br />
+                    일주일 잘 마무리하고 <br />
+                    내일 부터 또 힘내자... <br />
+                  </div>
+                </div>
+
+                <div class="secret-btn">
+                  <i class="fa-solid fa-lock"></i>
+                  <span>사슴의 비밀일기 보기</span>
+                </div>
+
+                <div class="secret diary">
+                  <div class="diary_now">사슴의 비밀일기</div>
+                  <div class="diary_contents"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="page-right">
+            <ul class="navbar">
+              <a href="home.html"><li class="navbar_list">홈</li></a>
+              <a href="diary.html"><li class="navbar_list">다이어리</li></a>
+              <a href="album.html"><li class="navbar_list">사진첩</li></a>
+              <a href="visitor.html"><li class="navbar_list">방명록</li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const days = document.querySelector(".calendar-days");
+
+      for (let i = 1; i <= 30; i++) {
+        let div = document.createElement("div");
+        div.innerText = `${i}`;
+        div.classList.add("day");
+
+        days.appendChild(div);
+      }
+    </script>
+    <script src="js/secret-diary.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+.page-left {
+  width: 27%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+
+  margin-right: 22px;
+}
+.page-left_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+}
+.today {
+  color: red;
+  margin: 0px 5px;
+}
+.page-left_main {
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 30px;
+
+  background-color: white;
+
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+
+  box-sizing: border-box;
+}
+.profile-img {
+  width: 100%;
+  height: 200px;
+
+  margin-bottom: 15px;
+}
+
+/* ------------------ footer ------------------ */
+.footer {
+  position: relative;
+}
+
+.footer_wave,
+.footer_wave-links > * {
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  font-size: 14px;
+
+  margin-top: 5px;
+  padding: 5px;
+}
+.footer_wave > span:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer_wave-links {
+  width: 100%;
+  position: absolute;
+  top: 25px;
+}
+.footer_wave-links > * {
+  margin: 0;
+}
